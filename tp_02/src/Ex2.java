@@ -4,7 +4,7 @@ import java.awt.event.*;
 public class Ex2 extends JFrame implements ActionListener {
 
     private JTextField t;
-    private JPanel p;
+    private static JPanel p;
     private JButton b;
 
     // private Container buttonLayout;
@@ -29,10 +29,10 @@ public class Ex2 extends JFrame implements ActionListener {
         this.b.addActionListener(this);
     }
 
-    public void create_btn_as_nbr(int nbr){
+    public static void create_btn_as_nbr(int nbr){
         Box boxHorizontal = Box.createHorizontalBox();
         boxHorizontal.setBounds(250,200,300,300);
-        this.p.add(boxHorizontal);
+        p.add(boxHorizontal);
         for(int i=0; i<nbr ;i++){
             String info="button"+(i+1);
             boxHorizontal.add(new JButton(info));

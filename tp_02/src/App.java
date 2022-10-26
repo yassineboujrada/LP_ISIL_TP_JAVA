@@ -9,7 +9,7 @@ public class App {
         // new Ex6();
         // ex7 and ex8 they alrady have own main
         // new Ex9();
-        new Ex10();
+        // new Ex10();
         
     }
 }
