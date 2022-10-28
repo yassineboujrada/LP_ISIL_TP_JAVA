@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("#########  TP 02  ################");
+        System.out.println("#########  TP 02 : interface graphic ################");
+        // decommit and run the show interface of each one
         // new Ex1();
         // new Ex2();
         // new Ex3();
