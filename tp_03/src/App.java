@@ -6,13 +6,15 @@ public class App {
         Eleve e2 = new Eleve("khadija");
         Eleve e3 = new Eleve("khalid");
         Eleve e4 = new Eleve("fahd");
-        // e.ajouterNote(10);
-        // e.ajouterNote(-5);
-        // e.ajouterNote(22);
-        // e.ajouterNote(16);
-        // System.out.println(e.getListeNotes());
-        // // System.out.println(e.getMoyenne());
-        // System.out.println(e.toString());
+        e.ajouterNote(10);
+        e.ajouterNote(-5);
+        e.ajouterNote(22);
+        e.ajouterNote(16);
+        System.out.println(e.getListeNotes());
+        // System.out.println(e.getMoyenne());
+        System.out.println(e.toString());
+
+
         e1.ajouterNote(10);
         e1.ajouterNote(-5);
         e1.ajouterNote(22);
@@ -39,8 +41,8 @@ public class App {
         gr.ajouterEleve(e2);
         gr.ajouterEleve(e3);
         gr.ajouterEleve(e4);
-        System.out.println(gr.chercher("khadija"));
-        System.out.println(gr.chercher("Omar"));
+        System.out.println("We found:\n"+gr.chercher("khadija"));
+        System.out.println("We found:\n"+gr.chercher("Omar"));
         gr.lister();
     }
 }
